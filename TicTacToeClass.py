@@ -1,6 +1,10 @@
 import random
 from collections import namedtuple
 
+import numpy as np
+
+from utils4e import *
+
 
 def random_player(game, state):
     """A player that chooses a legal move at random."""
